@@ -12,10 +12,10 @@ class ProductsService{
 
       this.products.push({
         id:faker.faker.datatype.uuid(),
-        name: faker.faker.commerce.productName(),
+       name: faker.faker.commerce.productName(),
         price: parseInt(faker.faker.commerce.price()*100),
-        image:faker.faker.image.fashion(),
-        isBlock:faker.faker.datatype.boolean(),
+       image:faker.faker.image.fashion(),
+      isBlock:faker.faker.datatype.boolean(),
 
       });
 
@@ -24,7 +24,7 @@ class ProductsService{
   }
  async create(data){
     const newProduct = {
-      id:faker.faker.datatype.uuid(), //da un id aleatorio
+     id:faker.faker.datatype.uuid(), //da un id aleatorio
       ...data
 
     }
