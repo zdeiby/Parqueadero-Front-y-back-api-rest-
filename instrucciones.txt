@@ -1,0 +1,19 @@
+npm init
+git init
+.editorconfig
+.eslintrc.json
+.gitignore // aca buscar en la pagina gitignore.io, colocar node ,windows,linux, macos y darle a create luego pegarlo
+
+cuando llenemos las config ejecutamos lo siguiente:
+ npm i nodemon eslint-config-prettier eslint-plugin-prettier prettier
+
+
+ despues instalar express con : npm i express
+
+ luego se crea el servidor en index.js
+
+ para el manejo de errores se instala:  npm i @hapi/boom
+
+validacion de datos con : i joi
+
+para quitar las cors instalamos: npm i cors
